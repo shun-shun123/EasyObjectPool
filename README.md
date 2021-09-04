@@ -2,9 +2,7 @@
 ## What is EasyObjectPool?
 EasyObjectPool is a lightweight library designed to make it as easy as possible to use ObjectPool in Unity.
 It allows users to use ObjectPool with little or no additional coding, and provides the minimum functionality required for ObjectPool.
-
-## What kind of people is this for?
-EasyObjectPool is intended to be used mainly for hackathon-like development. Therefore, it implements only the minimum necessary functions such as Rent from ObjectPool and Return to ObjectPool.
+EasyObjectPool implements only the minimum required functions, such as Rent from ObjectPool and Return to ObjectPool.
 
 ## Introduction
 Using EasyObjectPool is very easy, and you can use the ObjectPool features in two steps.
@@ -23,7 +21,6 @@ public class SphereModule : MonoBehaviour, IPoolElement<SphereModule>
     public void OnDeActive()
     {
         Debug.Log("OnDeActivate");
-        transform.position = new Vector3(0f, 15f, 0f);
     }
 }
 ```
