@@ -1,5 +1,7 @@
 # EasyObjectPool
 ## What is EasyObjectPool?
+[日本語訳](https://github.com/shun-shun123/EasyObjectPool/blob/master/README_ja.md)
+
 EasyObjectPool is a lightweight library designed to make it as easy as possible to use ObjectPool in Unity.
 It allows users to use ObjectPool with little or no additional coding, and provides the minimum functionality required for ObjectPool.
 EasyObjectPool implements only the minimum required functions, such as Rent from ObjectPool and Return to ObjectPool.
